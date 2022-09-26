@@ -1,0 +1,46 @@
+.content-title{
+    color: wheat;
+    float: left;
+    margin-left: 69px;
+    margin-top: 200px;
+}
+
+.h2{
+    position: relative;
+    display: block;
+     text-align: left;
+     font-weight: 700;
+}
+h2::before{
+    content: "";
+    position: absolute;
+    background-color: #353535;
+    width: 8%;
+    bottom: 190px;
+    height: 2px;
+    margin-bottom: -499px;
+}
+h2::after{
+    content: '';
+    position: absolute;
+    background-color: #007ced;
+    width: 3%;
+    bottom: 190px;
+    height: 2px;
+    margin-bottom: -499px;
+    display: block;
+}
+.row-content{
+    padding-top: 300px;
+    padding-right: 20px;
+    float: left;
+    color: white;
+}
+p{
+    width: 537px;
+    text-align: left;
+    
+}
+.iconfen{
+    width: 200px;
+}
