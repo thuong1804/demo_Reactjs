@@ -16,7 +16,7 @@ h2::before{
     position: absolute;
     background-color: #353535;
     width: 8%;
-    bottom: 190px;
+    bottom: 180px;
     height: 2px;
     margin-bottom: -499px;
 }
@@ -25,7 +25,7 @@ h2::after{
     position: absolute;
     background-color: #007ced;
     width: 3%;
-    bottom: 190px;
+    bottom: 180px;
     height: 2px;
     margin-bottom: -499px;
     display: block;
@@ -33,14 +33,70 @@ h2::after{
 .row-content{
     padding-top: 300px;
     padding-right: 20px;
-    float: left;
-    color: white;
+    color: #d5d5d5;
 }
-p{
-    width: 537px;
+#text-p-Copywrite{
+   
+    padding-left: 169px;
+     width: 704px;
     text-align: left;
     
 }
-.iconfen{
-    width: 200px;
+#text-p-Ecommerce{
+   
+    padding-left: 169px;
+
+    text-align: left;
+    
+}
+.svg-inline--fa{
+   font-size: 55px;
+   padding-right: 700px;
+   margin-left: 62px;
+   color: #007ced;
+
+}
+h4{
+    color: white;
+    margin-top: -140px;
+    padding-right: 383px;
+}
+.row-content-down{
+    color: #d5d5d5;
+    padding-top: 56px;
+}
+
+.Testimonials {
+    color: wheat;
+    position: relative;
+    display: block;
+     text-align: left;
+     font-weight: 700;
+     padding-left: 56px;
+     
+}
+.Testimonials::before{
+    content: "";
+    position: absolute;
+    background-color: #353535;
+    width: 10%;
+    bottom: 490px;
+    height: 2px;
+    margin-bottom: -499px;
+    padding-left: 58px
+}
+.Testimonials::after{
+    content: '';
+    position: absolute;
+    background-color: #007ced;
+    width: 3%;
+    bottom: 490px;
+    height: 2px;
+    margin-bottom: -499px;
+    display: block;
+    padding-left: 58px
+}
+.row_banner_img{
+    color: #d5d5d5;
+    padding-top: 56px;
 }
