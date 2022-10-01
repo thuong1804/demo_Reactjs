@@ -66,7 +66,14 @@ h4{
     color: white;
     margin-top: -140px;
     padding-right: 398px;
+
+    &:hover{
+        transform: translateX(20px);
+        transition:0.25s ease-in-out ;
+    }
 }
+
+
 .title-education{
     color: white;
     margin-top: -140px;

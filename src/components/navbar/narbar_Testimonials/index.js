@@ -21,6 +21,7 @@ function Navbar() {
       }
     ])
   return (
+    <div className="nar">
     <section className="menu-navbar">
       {navbars.map(
         (item,index)=>( <a key={index} href={item.href} className="navbar-item">
@@ -29,6 +30,7 @@ function Navbar() {
       </a>)
       )}
     </section>
+    </div>
   );
 }
 export default Navbar;
