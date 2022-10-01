@@ -1,46 +1,75 @@
-import './banner.scss';
-import React from 'react';
-import bannerimg from '../../assets/images/cesar-rincon-1024x1024.jpg';
-import {  Button, Row } from 'reactstrap';
-import {Col} from 'reactstrap';
-import {Container} from 'reactstrap';
+import "./banner.scss";
+import React from "react";
+import bannerimg from "../../assets/images/anhdaidien.jpg";
+import { Button, Row } from "reactstrap";
+import { Col } from "reactstrap";
+import { Container } from "reactstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone,faCalendar,faEnvelope,faAddressCard } from "@fortawesome/free-solid-svg-icons";
 
-
-function Banner()
-{
-    return(
-        <div className='banner'>
-            <Container>          
-            <Row>               
-                <Col>
-                <div className='home-banner'>
-                <img src={bannerimg} className='banner_img'></img>
-                </div>
-                </Col>
-                <Col className='text-col'>
-                <h4>Web Designer</h4>
-                <h1>Alex Smith</h1>
-                <p id='text-p-banner'> Fusce tempor magna mi, non egestas velit ultricies nec. 
-                    Aenean convallis, risus non condimentum gravida, odio mauris 
-                    ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet
-                     lacinia urna, a placerat sapien pretium eu.</p>
-                    <Row>
-                        <Col>
-                        <Button className='btn-dowload'>Download CV</Button>
-                        </Col>
-                        <Col>
-                        <Button className='btn-contact'>Contact</Button>
-                        </Col>
-                    </Row>
-                </Col>
-               
+function Banner() {
+  return (
+    <div className="banner">
+      <Container>
+        <Row>
+          <Col>
+            <div className="home-banner">
+              <img src={bannerimg} className="banner_img"></img>
+            </div>
+          </Col>
+          <Col className="text-col">
+            <h4>Web Designer</h4>
+            <h1>Le Hoai Thuong</h1>
+            <div className="infomation">
+              <div className="fa-phone-myself">
+                <Row>
+                  <Col id="col-value">
+                    <FontAwesomeIcon icon={faPhone} className='font-desgin'></FontAwesomeIcon>
+                  </Col>
+                  <Col >                   
+                    <p>:0853908398</p>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col id="col-value">
+                    <FontAwesomeIcon icon={faCalendar}  className='font-desgin'></FontAwesomeIcon>
+                  </Col>
+                  <Col >                
+                    <p>:18/04/2000</p>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col id="col-value">
+                    <FontAwesomeIcon icon={faEnvelope}  className='font-desgin'></FontAwesomeIcon>
+                  </Col>
+                  <Col >                
+                    <p>:thuong123tvt@gmail.com</p>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col id="col-value">
+                    <FontAwesomeIcon icon={faAddressCard}  className='font-desgin'></FontAwesomeIcon>
+                  </Col>
+                  <Col>
+                    <p>:120 street, Tan Phu ward, 9 distrit, Thu Duc city</p>
+                  </Col>
+                </Row>
+              </div>
+            </div>
+           
+            <Row>
+              <Col>
+                <Button className="btn-dowload">Skill</Button>
+              </Col>
+              <Col>
+                <Button className="btn-contact">Contact</Button>
+              </Col>
             </Row>
-            
-            </Container>
-              
-            
-        </div>
-    )
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
 }
 
 export default Banner;

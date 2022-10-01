@@ -2,24 +2,28 @@
     position: relative;
     background-color: #444;
     border: 18px solid #444;
-    width: 538px;
+    width: fit-content;
     display: block;
     border-radius: 100%;
     overflow: hidden;
-    padding-bottom: calc(100% - 110px);
+    height: auto;
 
 }
 
 .banner_img{
-    width: 473px;
+   
+    width: 460px;
     border: 2px solid black;
-    border-radius:50% ;
-    position:absolute;
-    height: auto;
-    top: 6px;
-    left: 13px;
+    border-radius: 50%;
+    height: 460px;
     background-size: cover;
+
+    @media screen and (max-width: 576px) {
+        height: 200px;
+        width: 200px;
+      }
 }
+
 .text-col{
     color: white;
     text-align: left;
@@ -58,4 +62,14 @@ h4{
     padding: 0.8em;
     width: 131px;
     margin-left: -102px;
+}
+
+#col-value{
+   flex: 0 0;
+}
+.font-desgin{
+  color: yellow;
+}
+.fa-phone-myself{
+    font-style: oblique;
 }

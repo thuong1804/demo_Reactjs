@@ -1,0 +1,71 @@
+.Client-title{
+    color: wheat;
+    float: left;
+    margin-left: 69px;
+    margin-top: 200px;
+}
+
+.h2{
+    position: relative;
+    display: block;
+     text-align: left;
+     font-weight: 700;
+}
+.Client-title::before{
+    content: "";
+    position: absolute;
+    background-color: #353535;
+    width: 4%;
+    margin-top: 40px;
+     margin-left: -24px;
+    height: 2px;
+    
+}
+.Client-title::after{
+    content: '';
+    position: absolute;
+    background-color: #007ced;
+    width: 3%;
+    height: 2px;
+    margin-top: -6px;
+    display: block;
+}
+
+
+
+
+.Funfacts-title{
+    color: wheat;
+    float: left;
+    margin-left: 69px;
+    margin-top: 200px;
+}
+
+.Funfacts-title h2{
+    position: relative;
+    display: block;
+     text-align: left;
+     font-weight: 700;
+     bottom: -384px;
+    right: 163px;
+}
+.Funfacts-title::before{
+    content: "";
+    position: absolute;
+    background-color: #353535;
+    width: 12%;
+    margin-top: 430px;
+    margin-left: -238px;
+    height: 2px;
+    
+}
+.Funfacts-title::after{
+    content: '';
+    position: absolute;
+    background-color: #007ced;
+    width: 3%;
+    height: 2px;
+    margin-top: 384px;
+    margin-left: -158px;
+    display: block;
+}

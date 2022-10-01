@@ -1,35 +1,23 @@
 import React, { useState } from "react";
-import "./navbar.scss";
+import "../narbar_Testimonials/navbar_testimonials.scss";
 
 function Navbar() {
     const [navbars] = useState([
         {
             title: 'About me',
             href: '/about'
-        },
-        {
-            title: 'Resume',
-            href: '/resume'
-        },
-        {
-            title: 'Portfolio',
-            href: '/portfolio'
-        },
-        {
-            title: 'Blog',
-            href: '/blog'
-        },
+        },      
         {
             title: 'Contact',
             href: '/contact'
         },
         {
-            title: 'Extra',
-            href: '/extra'
+            title: 'Skill',
+            href: '/skill'
         },
         {
-          title: 'Get it Now',
-          href: '/get it now'
+          title: 'Link Information',
+          href: '/link Information'
       }
     ])
   return (
