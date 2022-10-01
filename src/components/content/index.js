@@ -1,11 +1,8 @@
 import React from "react";
-import { Col, Row } from "reactstrap";
+import { Col, Container, Row } from "reactstrap";
 import "./content.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAtom, faBook, faPen, faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
-import { faStore } from "@fortawesome/free-solid-svg-icons";
-import { faMobileScreen } from "@fortawesome/free-solid-svg-icons";
-import { faVolumeHigh } from "@fortawesome/free-solid-svg-icons";
 
 function Content() {
   return (
@@ -13,8 +10,9 @@ function Content() {
       <div className="content-title">
         <h2 className="title-whatido">About Myself </h2>
       </div>
-      <div className="row-content">
-        <Row>
+      
+      <div className="row-content">       
+        <Row>        
           <Col className="Copywrite">
             <FontAwesomeIcon icon={faPen} className='content_icon'></FontAwesomeIcon>
             <h4>PREFACE</h4>
@@ -30,9 +28,13 @@ function Content() {
               HTML, CSS, JAVASCRIPT, BOOTSTRAP, REACTJS.
             </p>
           </Col>
-        </Row>
+          
+        </Row> 
       </div>
+
+      
       <div className="row-content-down">
+       
         <Row>
           <Col className="Copywrite">
             <FontAwesomeIcon icon={faBook} className='content_icon'></FontAwesomeIcon>
@@ -45,7 +47,7 @@ function Content() {
             </p>
           </Col>
           <Col className="Ecommerce">
-            <FontAwesomeIcon icon={faVolumeHigh} className='content_icon'></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faQuoteLeft} className='content_icon'></FontAwesomeIcon>
             <h4>Education</h4>
             <p id="text-p-Ecommerce">
               Attended  Tran Van Thoi middle school  | 2011-2015 <br></br>
@@ -54,7 +56,9 @@ function Content() {
             </p>
           </Col>
         </Row>
+     
       </div>
+      
       <div className="Testimonials">
         <h2 className="testimonials-h2">Self-Goals</h2>
       </div>    
