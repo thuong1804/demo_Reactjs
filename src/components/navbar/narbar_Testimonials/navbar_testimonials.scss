@@ -1,9 +1,13 @@
+.nar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
 .menu-navbar{
-    text-align: right;
-    margin-right: 40px;
-    padding-top: 68px;
-  padding-bottom: 205px;
-  font-size: 20px;
+  text-align: right;
+  font-size: 14px;
     
   
   
@@ -13,4 +17,7 @@
     text-decoration: none;
     padding-inline-start: 60px;
     color: #969696;
+    &:hover{
+      color: #fff;
+    }
 }

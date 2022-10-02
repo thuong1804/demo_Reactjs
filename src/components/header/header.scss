@@ -1,27 +1,27 @@
-.Header{
-    justify-content: flex-start;
-     float: left;
+.Header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    float: left;
     color: white;
-    
+}
 
+.Name-Logo {
+    padding-left: 10px;
+    font-size: 20px;
 }
-.Name-Logo{
-    padding-left: 150px;
-    padding-top: 59px;
-   
-}
-.logo-a{
-  
-    margin-top: -46px;
-    margin-left: 85px;
-     border: 2px solid #007ced;
-     border-radius: 50%;
-     width: 50px;
-     height: 49px;
-     font-size: 30px;
+
+.logo-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #007ced;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 28px;
     line-height: 37px;
-     background-color: #007ced;
-     font-weight: 800;
-  
-    
+    background-color: #007ced;
+    font-weight: bold;
 }

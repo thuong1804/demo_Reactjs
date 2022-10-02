@@ -1,5 +1,5 @@
 import React from "react";
-import './sidebarprofilefunfact.scss';
+import './sidebarProfileFunfact.scss';
 import { Col, Container, Row } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faBandage, faMagic, faSmile, faUserCheck, faUserGroup} from "@fortawesome/free-solid-svg-icons";

@@ -1,5 +1,5 @@
 import React from "react";
-import "../sidebarprofile_Client/sidebarprofile_client.scss";
+import "../sidebarProfileClient/sidebarProfileClient.scss";
 
 
 function   IndexsidebarClient  () {
