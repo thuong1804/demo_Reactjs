@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Header from "../../header";
 import "../narbar_Testimonials/navbar_testimonials.scss";
 
 function Navbar() {
@@ -22,6 +23,7 @@ function Navbar() {
     ])
   return (
     <div className="nar">
+     <Header />
     <section className="menu-navbar">
       {navbars.map(
         (item,index)=>( <a key={index} href={item.href} className="navbar-item">

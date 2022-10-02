@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "../sidebarslider/sidebarsilde.scss"
+import "./sidebarSlide.scss"
 import html from "../../../../assets/images/html.png";
 import css from "../../../../assets/images/css.png";
 import js from "../../../../assets/images/js.png";
@@ -19,7 +19,9 @@ import { Container } from "reactstrap";
       infinite: true,
       speed: 500,
       slidesToShow: 6,
-      slidesToScroll: 6
+      slidesToScroll: 6,
+      arrows: false
+
     };
     const [slides] = useState([
       html,css,boot,js,reactjs,git,scss

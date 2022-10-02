@@ -13,25 +13,36 @@
    
 }
 
-.img_testimonial_1 img{
+.wrap-sidebar{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-sidebar{
     position: relative;
+}
+
+.sidebar__picture{
+    position: absolute;
     width: 100px;
     height: 100px;
     border-color: black;
     border-radius: 50%;
     z-index: 1;
-    left: 51px;
-    bottom: -61px;
     background-size: cover;
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
 }
 
 .border-text{
     border: 1px solid #444;
     border-radius: 8px;
     background-color: #282828;
-    width: 716px;
+    width: 600px;
     height: 200px;
-    margin-left: 96px;
     padding:  30px 20px 20px 60px;;
     
 }
