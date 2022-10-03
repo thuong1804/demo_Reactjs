@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../narbar_Testimonials/navbar_testimonials.scss";
+import {Header} from "../../header";
 
 function Navbar() {
     const [navbars] = useState([
@@ -21,6 +22,7 @@ function Navbar() {
       }
     ])
   return (
+    <Header>
     <div className="nar">
     <section className="menu-navbar">
       {navbars.map(
@@ -31,6 +33,7 @@ function Navbar() {
       )}
     </section>
     </div>
+    </Header>
   );
 }
 export default Navbar;
