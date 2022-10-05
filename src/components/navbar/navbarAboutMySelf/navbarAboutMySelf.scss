@@ -1,0 +1,22 @@
+.MenuNavbarr{
+
+  font-size: 20px;
+  
+}
+.nar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+.navbarItem{
+    outline: none;
+    text-decoration: none;
+    color: #969696;
+    padding-inline-start: 60px;
+
+    &:hover{
+      color: white;
+    }    
+}
+

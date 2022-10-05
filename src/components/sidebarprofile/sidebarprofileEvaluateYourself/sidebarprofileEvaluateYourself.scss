@@ -1,16 +1,16 @@
-.narbar_funfact{
+.navbarEY{
     color: white;
     padding-bottom: 115px;
 }
-.row-funfact{
-    padding-top: 195px;
+.rowEY{
+   margin-top: 300px;
 }
-.col-funfact{
+.colEY{
     transition: 0.25s ease-in-out;
     background-color: #333333;
     border: 1px solid #444;
     border-radius: 20px;
-    height: 253px;
+    text-align: center;
     margin-right: 15px;
     &:hover{
     transform: translateY(-20px);   
@@ -20,17 +20,17 @@
 
 
 
-.title-funfact{
+.titleEY{
     font-size: 22px;
     margin-top: 39px;
     font-weight: 500;
 }
-.number-funfact{
+.numberEY{
     font-size: 50px;
     font-weight: 600;
 
 }
-.font-funfact{
+.fontEY{
     font-size: 85px;
     padding-top: 10px;
     color: yellow;

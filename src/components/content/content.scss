@@ -1,4 +1,4 @@
-.content-title{
+.contentTitle{
     color: wheat;
     position: relative;
     display: block;
@@ -14,7 +14,7 @@
      text-align: left;
      font-weight: 700;
 }
-.content-title::before{
+.contentTitle::before{
     content: "";
     position: absolute;
     background-color: #353535;
@@ -25,7 +25,7 @@
     padding-left: 58px;
 
 }
-.content-title::after{
+.contentTitle::after{
     content: "";
     position: absolute;
     background-color: #007ced;
@@ -36,55 +36,38 @@
     display: block;
     padding-left: 58px;
 }
-.row-content{
+.rowContent{
     padding-top: 105px;
-    padding-right: 20px;
     color: #d5d5d5;
+    padding: 0 0 0 100px;
+    margin-top: 64px;
+  
 }
-#text-p-Copywrite{
-   
-    padding-left: 169px;
-    
-    text-align: left;
-    
-}
-#text-p-Ecommerce{
-   
-    padding-left: 169px;
 
-    text-align: left;
-    
+.iconContent{
+    display: contents;
 }
-.content_icon{
+.contentIcon{
    font-size: 55px;
    color: #007ced;
 
 }
 h4{
     color: white;
-    margin-top: -140px;
-    padding-right: 398px;
 
     &:hover{
         transform: translateX(20px);
         transition:0.25s ease-in-out ;
     }
 }
-
-
-.title-education{
-    color: white;
-    margin-top: -140px;
-    padding-right: 293px;
+#textCopywrite{
+    width: 576px;
 }
-.title-skill{
-    color: white;
-    margin-top: -140px;
-    padding-right: 426px;
-}
-.row-content-down{
+
+.rowContentDown{
     color: #d5d5d5;
-    padding-top: 56px;
+    margin-top: 20px;
+    padding: 0 0 0 100px;
 }
 
 .Testimonials {
@@ -127,3 +110,10 @@ h4{
     border: 2px solid black;
     border-radius: 50%;
 }
+
+@media  (max-width:576px){
+    #textCopywrite{
+        width: 142px;
+    }
+    
+  }

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "../narbar_Testimonials/navbar_testimonials.scss";
-import {Header} from "../../header";
+import "./navbarAboutMySelf.scss";
+import Header from "../../header";
 
 function Navbar() {
     const [navbars] = useState([
@@ -22,18 +22,18 @@ function Navbar() {
       }
     ])
   return (
-    <Header>
+   
     <div className="nar">
-    <section className="menu-navbar">
+       <Header/>
+    <section className="MenuNavbar">
       {navbars.map(
-        (item,index)=>( <a key={index} href={item.href} className="navbar-item">
-        {" "}
+        (item,index)=>( <a key={index} href={item.href} className="navbarItem">
         {item.title}
       </a>)
       )}
     </section>
     </div>
-    </Header>
+   
   );
 }
 export default Navbar;

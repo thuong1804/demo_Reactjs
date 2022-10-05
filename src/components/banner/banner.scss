@@ -1,4 +1,4 @@
-.home-banner{
+.homeBanner{
     position: relative;
     background-color: #444;
     border: 18px solid #444;
@@ -24,7 +24,7 @@
       }
 }
 
-.text-col{
+.textCol{
     color: white;
     text-align: left;
     padding-right: 75px;
@@ -37,14 +37,15 @@
 
 }
 .h1, h1 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     padding-bottom: 24px;
+    width: 450px;
 }
-h4{
+.titleConTent{
     padding-top: 78px;
-    color: #969696;
+    color: #aaa;
 }
-.btn-dowload{
+.btnSkill{
     border: 2px solid #007ced;
     background-color: #222222;
     border-radius: 30px;
@@ -52,24 +53,25 @@ h4{
     line-height: 1.2;
     padding: 0.8em;
     width: 200px;
+   
 }
-.btn-contact{
+.btnDownload{
     border: 2px solid #fff;
     background-color: #222222;
     border-radius: 30px;
     font-size: 20px;
     line-height: 1.2;
     padding: 0.8em;
-    width: 131px;
-    margin-left: -102px;
+    width: 170px;
+    margin-left: -36px;
 }
 
-#col-value{
+#colValueContact{
    flex: 0 0;
 }
-.font-desgin{
+.fontContact{
   color: yellow;
 }
-.fa-phone-myself{
+.faphoneMyself{
     font-style: oblique;
 }

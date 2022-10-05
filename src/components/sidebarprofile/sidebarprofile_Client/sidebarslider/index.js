@@ -6,9 +6,9 @@ import "../sidebarslider/sidebarsilde.scss"
 import html from "../../../../assets/images/html.png";
 import css from "../../../../assets/images/css.png";
 import js from "../../../../assets/images/js.png";
-import boot from "../../../../assets/images/boot.jpg";
+import bootstrap from "../../../../assets/images/bootstrap.png";
 import scss from "../../../../assets/images/scss.png";
-import git from "../../../../assets/images/git.png";
+import github from "../../../../assets/images/github.webp";
 import reactjs from "../../../../assets/images/React-icon.svg.png";
 import { Container } from "reactstrap";
 
@@ -19,27 +19,24 @@ import { Container } from "reactstrap";
       infinite: true,
       speed: 500,
       slidesToShow: 6,
-      slidesToScroll: 6
+      slidesToScroll: 6,
+      arrows:false
     };
     const [slides] = useState([
-      html,css,boot,js,reactjs,git,scss
+      html,css,bootstrap,js,reactjs,github,scss
     ])
-    // useEffect( ()=>{
-    //     const initslide = 
-    //     setSlides(initslide)
-    //     console.log(slides);
-    // },[])
+   
 
     return (
       <div>
        
-        <div className="slide-img">
+        <div className="slideImg">
          <Container>
         <Slider {...settings}>
           {slides.map(
             (img,index)=>{
               return(
-                <div className="img-sl"key={index}>
+                <div className="imgSl"key={index}>
                 <img src={img}></img>
                 </div>
               )
