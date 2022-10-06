@@ -68,3 +68,26 @@
     margin-left: -158px;
     display: block;
 }
+@media (max-width:740px)
+{
+    .SkillTitle::before{
+        width: 11%;
+        margin-top: 34px;
+    }
+    .EvaluateTitle::before{
+        width: 33%;
+        margin-top: 425px;
+    }
+}
+@media (max-width:740px)
+{
+    .SkillTitle::before{
+        width: 12%; 
+        margin-top: 32px;
+    }
+    .EvaluateTitle::before{
+    width: 40%;
+    margin-top: 422px;
+     height: 3px;
+    }
+}

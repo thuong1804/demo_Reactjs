@@ -7,3 +7,17 @@
     padding-left: 101px;
     object-fit: cover;
 }
+@media (max-width:740px)
+{
+    .imgSl img{
+    width: 160px;
+    height: 81px
+    }
+}
+@media (min-width:768px)
+{
+    .imgSl img{
+        width: 184px;
+        height: 115px;
+    }
+}

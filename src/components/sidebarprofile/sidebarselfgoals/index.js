@@ -10,13 +10,21 @@ import SildebarItem from "./sidebarItem";
 
 
 const SidebarSelfGoals = () =>{
-  const settings = {
+  const settings_3 = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 2,
-    slidesToScroll: 2,
+    
     arrows: false,
+    responsive: [{
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 1
+      }
+    }]
   };
 
   const [sidebarData, setsidebarData] = useState([
@@ -41,7 +49,7 @@ const SidebarSelfGoals = () =>{
 
     <div>
       <div className="sidebarSelfGoals">
-      <Slider {...settings}>
+      <Slider {...settings_3}>
         {sidebarData.map((item,index)=>(<SildebarItem key ={index} data ={item} text ={item} author={item}></SildebarItem>))}
       </Slider>
       </div>

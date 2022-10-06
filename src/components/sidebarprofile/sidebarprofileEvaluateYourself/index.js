@@ -27,9 +27,9 @@ function SidebarEvaluateYourself(){
                     <p className="titleEY">Attendance</p>
                     <p className="numberEY">8.5/10</p>
                     </Col>
-                    <Col className="colEY">
+                    <Col className="colEYStyle">
                     <FontAwesomeIcon icon={faUserGroup} className="fontEY"></FontAwesomeIcon>
-                    <p className="titleEY">Teamwork</p>
+                    <p className="titleEYTeamWork">Teamwork</p>
                     <p className="numberEY">9/10</p>
                     </Col>
                 </Row>

@@ -97,8 +97,8 @@ function Content() {
         </Row>
       </div>
    
-      <div className="Testimonials">
-        <h2 className="testimonials-h2">Self-Goals</h2>
+      <div className="SelfGoals">
+        <h2 className="SelfGoals-h2">Self-Goals</h2>
       </div>
     </div>
   );

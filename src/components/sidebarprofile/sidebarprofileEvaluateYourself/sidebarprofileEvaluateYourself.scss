@@ -21,7 +21,7 @@
 
 
 .titleEY{
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 39px;
     font-weight: 500;
 }
@@ -34,4 +34,32 @@
     font-size: 85px;
     padding-top: 10px;
     color: yellow;
+}
+
+.colEYStyle{
+    transition: 0.25s ease-in-out;
+    background-color: #333333;
+    border: 1px solid #444;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.titleEYTeamWork{
+    font-size: 20px;
+    margin-top: 39px;
+    font-weight: 500;
+}
+@media (max-width:576px)
+{
+    .colEYStyle{
+        display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 10px
+    }
+    .titleEYTeamWork{
+    margin-left: 10px;
+    margin-right: 10px;
+    }
 }

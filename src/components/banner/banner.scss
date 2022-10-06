@@ -75,3 +75,20 @@
 .faphoneMyself{
     font-style: oblique;
 }
+
+@media (min-width:768px)
+{
+    .btnDownload{
+        margin-left: -108px;
+    }
+}
+@media (max-width:740px)
+{
+    .btnSkill{
+        width: 155px;
+    }
+    .btnDownload{
+     width: 164px;
+    margin-left: -18px;
+    }
+}

@@ -70,7 +70,7 @@ h4{
     padding: 0 0 0 100px;
 }
 
-.Testimonials {
+.SelfGoals {
     color: wheat;
     position: relative;
     display: block;
@@ -80,7 +80,7 @@ h4{
      margin-top: 69px
      
 }
-.Testimonials::before{
+.SelfGoals::before{
     content: "";
     position: absolute;
     background-color: #353535;
@@ -90,7 +90,7 @@ h4{
     margin-bottom: -499px;
     padding-left: 58px
 }
-.Testimonials::after{
+.SelfGoals::after{
     content: '';
     position: absolute;
     background-color: #007ced;
@@ -111,9 +111,33 @@ h4{
     border-radius: 50%;
 }
 
-@media  (max-width:576px){
+@media  (max-width:740px){
     #textCopywrite{
-        width: 142px;
+        width: 83px;
     }
-    
+    .contentTitle::before{
+        width: 27%;
+    }
+    .SelfGoals::before{
+        width: 20%;
+    }
+    .rowContent{
+        padding: 0 0 0 18px;
+    }
+    .rowContentDown{
+        padding: 0 0 0 18px;
+    }
   }
+
+@media (max-width:768px)
+{
+    .contentTitle::before{
+        width: 22%;
+    }
+    #textCopywrite{
+        width: 70%;
+    }
+    .SelfGoals::before{
+        width: 16%;
+    }
+}
