@@ -1,6 +1,5 @@
 
 import './App.scss';
-import Header from './components/header';
 import Navbar from './components/navbar/navbarAboutMySelf';
 import Banner from './components/banner';
 import Content from './components/content';
@@ -15,11 +14,11 @@ function App() {
      <Navbar/>
       <Banner/>
       <Content/>
-      <SimpleSlider></SimpleSlider>
+      <SimpleSlider />
       <IndexsidebarClient/>
-      <Sidebarslider></Sidebarslider>
+      <Sidebarslider/>
       <SidebarEvaluateYourself/>
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 }
