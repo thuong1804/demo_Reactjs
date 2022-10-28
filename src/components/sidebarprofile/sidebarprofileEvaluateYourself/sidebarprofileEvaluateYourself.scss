@@ -43,6 +43,10 @@
     border-radius: 20px;
     text-align: center;
     margin-right: 15px;
+    &:hover{
+        transform: translateY(-20px);   
+        transition: 0.25 ease-in-out;
+        }
 }
 
 .titleEYTeamWork{

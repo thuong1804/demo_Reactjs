@@ -1,38 +1,46 @@
-import React from "react";
+import React, { useState } from "react";
 import './sidebarprofileEvaluateYourself.scss';
 import { Col, Container, Row } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faBandage, faMagic, faSmile, faUserCheck, faUserGroup} from "@fortawesome/free-solid-svg-icons";
+import SideBarEvaluateItem from "./sidebarevaluateitem/sidebarevaluateitem";
 
 function SidebarEvaluateYourself(){
 
+    const [sideBarEvaluaTe, setSideBarEvaluaTe] = useState ([
+        {
+            font:faSmile,
+            title:'Sociability',
+            text:'10/10'
+        },
+        {
+            font:faBandage,
+            title:'Work Pressure',
+            text:'9/10'
+        },
+        {
+            font:faUserCheck,
+            title:'Attendance',
+            text:'8.5/10'
+        },
+        {
+            font:faUserGroup,
+            title:'Teamwork',
+            text:'9/10'
+        }
+
+    ])
+        
+    
     return(
             <div className="navbarEY">
                 <div className="rowEY">
                     <Container>
-                <Row>
-                    <Col className="colEY">
-                        <FontAwesomeIcon icon={faSmile} className="fontEY"></FontAwesomeIcon>
-                       <p className="titleEY">Sociability</p>
-                       <p className="numberEY">10/10</p>
-                        </Col>
-                    <Col className="colEY">
-                    <FontAwesomeIcon icon={faBandage} className="fontEY"></FontAwesomeIcon>
-                    <p className="titleEY"> Work Pressure</p>
-                    <p className="numberEY">9/10</p>
-                    </Col>
-                    
-                    <Col className="colEY">
-                    <FontAwesomeIcon icon={faUserCheck} className="fontEY"></FontAwesomeIcon>
-                    <p className="titleEY">Attendance</p>
-                    <p className="numberEY">8.5/10</p>
-                    </Col>
-                    <Col className="colEYStyle">
-                    <FontAwesomeIcon icon={faUserGroup} className="fontEY"></FontAwesomeIcon>
-                    <p className="titleEYTeamWork">Teamwork</p>
-                    <p className="numberEY">9/10</p>
-                    </Col>
+                 <Row>
+                    {sideBarEvaluaTe.map((item,index)=>(<SideBarEvaluateItem key ={index} data ={item} title={item} text={item} ></SideBarEvaluateItem>))}
+                   
                 </Row>
+                  
                 </Container>
                 </div>
                 
